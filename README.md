@@ -28,6 +28,13 @@ This will copy a repository from github.com to your computer. If you want to cop
 Be careful, if you already have a folder named "getting-started" in your project folder you will get an error.
 
 ### Installing Homebrew
-Homebrew is a program that helps you install other applications you can use in your terminal. Before installing something, you might want to check if you have it already. You can usually check this on a Mac by running `which program-name` where "program-name" is the application you want to check. To check if you have Homebrew installed for example, run `which brew`. If you get a response like `/usr/local/bin/brew`, then you know that program is installed. If you get a response like `brew not found` then that program hasn't been installed yet.
+Homebrew is a program for Mac that helps you install other applications you can use in your terminal. Before installing something, you might want to check if you have it already. You can usually check this on a Mac by running `which program-name` where "program-name" is the application you want to check. To check if you have Homebrew installed for example, run `which brew`. If you get a response like `/usr/local/bin/brew`, then you know that program is installed. If you get a response like `brew not found` then that program hasn't been installed yet.
 
 To install brew, run the command `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+Once you have Homebrew installed, you can check that it works by using the command `brew --version`
+
+#### Installing Node with Homebrew
+Node is a special application for running JavaScript programs on your computer. You don't need Node in order to write JavaScript code, but Node allows you to write JavaScript that can do special things like run a server or use JavaScript packages easily.
+
+To install Node using Homebrew run the command `brew install node`. This installs the application "node" whcih you can use to run your JavaScript programs on your terminal as well as "npm" which helps you install JavaScript pacakges, which is code that other developers have written and shared.
