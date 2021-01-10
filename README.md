@@ -16,6 +16,8 @@ To use a ccommand in the terminal, just type it in and hit "enter". Some command
 
 `ls` (list) - this command will list everything (folders and filers) in your current directory.
 
+`mkdir` (make directory) - this command will make a new folder with the name you give it ex. `mkdir new-folder` will create an empty folder called "new-folder". It's nice to create a project folder on your root directory where you can save your projects.
+
 ## Using `git`
 Git is a special program that helps you save changes you make to your code and share them easily with others.
 
@@ -26,3 +28,6 @@ This will copy a repository from github.com to your computer. If you want to cop
 Be careful, if you already have a folder named "getting-started" in your project folder you will get an error.
 
 ### Installing Homebrew
+Homebrew is a program that helps you install other applications you can use in your terminal. Before installing something, you might want to check if you have it already. You can usually check this on a Mac by running `which program-name` where "program-name" is the application you want to check. To check if you have Homebrew installed for example, run `which brew`. If you get a response like `/usr/local/bin/brew`, then you know that program is installed. If you get a response like `brew not found` then that program hasn't been installed yet.
+
+To install brew, run the command `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
