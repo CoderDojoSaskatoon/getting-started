@@ -47,7 +47,7 @@ Once you have Homebrew installed, you can check that it works by using the comma
 Node is a special application for running JavaScript programs on your computer. You don't need Node in order to write JavaScript code, but Node allows you to write JavaScript that can do special things like run a server or use JavaScript packages easily.
 
 #### Installing Node with Homebrew
-To install Node using Homebrew run the command `brew install node`. This installs the application "node" whcih you can use to run your JavaScript programs on your terminal as well as "npm" which helps you install JavaScript pacakges, which is code that other developers have written and shared.
+This is the preferred way if you have a Mac since it will install Node exactly where you want it to be and manage your updates with `brew update`. To install Node using Homebrew run the command `brew install node`. This installs the application "node" whcih you can use to run your JavaScript programs on your terminal as well as "npm" which helps you install JavaScript pacakges, which is code that other developers have written and shared.
 
 #### Installing Node with the Installer
-TBD
+You can also download an installer from https://nodejs.org/en/download/.
