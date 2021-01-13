@@ -27,6 +27,15 @@ This will copy a repository from github.com to your computer. If you want to cop
 
 Be careful, if you already have a folder named "getting-started" in your project folder you will get an error.
 
+#### `add`
+This command will "stage" the changes you have made to a file. Once the file looks good to share, you can add it with `git add filename`.
+
+#### `commit`
+This command will commit all the changes you have staged to your git log. Do this once you are very sure your changes are okay. You also need to add a message for your commit, letting yourself or others know why you made those changes, you can do this with `git commit -m "This is my message!"`
+
+#### `stash`
+This command will temporarily remove all of the changes you've made that have not been commited or staged on your branch. This can be useful if you want to `pull` some changes onto your branch. To get your changes back, you can use `git stash pop`.
+
 ### Installing Homebrew
 Homebrew is a program for Mac that helps you install other applications you can use in your terminal. Before installing something, you might want to check if you have it already. You can usually check this on a Mac by running `which program-name` where "program-name" is the application you want to check. To check if you have Homebrew installed for example, run `which brew`. If you get a response like `/usr/local/bin/brew`, then you know that program is installed. If you get a response like `brew not found` then that program hasn't been installed yet.
 
@@ -34,7 +43,11 @@ To install brew, run the command `/bin/bash -c "$(curl -fsSL https://raw.githubu
 
 Once you have Homebrew installed, you can check that it works by using the command `brew --version`
 
-#### Installing Node with Homebrew
+### Installing Node
 Node is a special application for running JavaScript programs on your computer. You don't need Node in order to write JavaScript code, but Node allows you to write JavaScript that can do special things like run a server or use JavaScript packages easily.
 
+#### Installing Node with Homebrew
 To install Node using Homebrew run the command `brew install node`. This installs the application "node" whcih you can use to run your JavaScript programs on your terminal as well as "npm" which helps you install JavaScript pacakges, which is code that other developers have written and shared.
+
+#### Installing Node with the Installer
+TBD
