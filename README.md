@@ -21,6 +21,8 @@ To use a ccommand in the terminal, just type it in and hit "enter". Some command
 ## Using `git`
 Git is a special program that helps you save changes you make to your code and share them easily with others.
 
+If this is your first time using git or you are unfamiliar with using terminal programs, you may want to download Github Desktop (https://desktop.github.com/). Most of the commands you can use in your terminal are also available in the Github Desktop GUI.
+
 ### `git` commands
 #### `clone`
 This will copy a repository from github.com to your computer. If you want to copy this repository, use your terminal and navigate to your project folder. Then use the command `git clone https://github.com/CoderDojoSaskatoon/getting-started`.
