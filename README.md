@@ -1,5 +1,8 @@
 # Getting Started
-A guide to help you download and install programming applications
+A guide to help you download and install programming applications.
+
+## Picking a Code Editor
+Code editors are helpful programs that make writing code much easier. I like to use Visual Studio Code, it has a few features that are very handy like the integrated terminal. You can download VS Code here: https://code.visualstudio.com/
 
 ## Using a Terminal Program
 
@@ -7,7 +10,7 @@ A guide to help you download and install programming applications
 All Mac computer come with a terminal program installed on them. To find it go to Applications -> Utilities and select the "Terminal" application. This application is very basic but don't be fooled, you can do so much with it! Let's become more familiar with some terminal commands.
 
 ## Terminal Commands
-To use a ccommand in the terminal, just type it in and hit "enter". Some commands will need arguments which you put in after your command with a space. Some will use special flags to change the command a little bit, you put those in after your command with a space and "-".
+To use a ccommand in the terminal, just type it in and hit "enter". Sometimes you may need certain permissions to run terminal commands. You can execute a command as a "super user" by writing `sudo` and a space before the command you want to run. The first time you run a `sudo` command, it will ask for your password to make sure you have permission to be a super user. Some commands will need arguments which you put in after your command with a space. Some will use special flags to change the command a little bit, you put those in after your command with a space and "-".
 
 ### For Mac Computers
 `pwd` (print working directory) - this command will show where you are in your file structure. When you first start your terminal program you start in a special place called "root".
